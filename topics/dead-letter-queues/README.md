@@ -34,4 +34,5 @@ Silently dropping DLQ messages, redriving without fixing the cause, or making a 
 
 ## Sources
 
-[Amazon SQS DLQs](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-dead-letter-queues.html)
+[Amazon SQS DLQs](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-dead-letter-queues.html),
+[RabbitMQ dead-letter exchanges](https://www.rabbitmq.com/docs/dlx)

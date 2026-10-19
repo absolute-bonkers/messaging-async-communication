@@ -2,7 +2,7 @@
 
 **Roadmap coverage:** RabbitMQ; Amazon SQS
 
-Queues decouple producers from workers: messages remain available until consumed and acknowledged (subject to broker semantics). This in-memory example models delivery, acknowledgement, and retry.
+Queues decouple producers from workers: messages remain available until consumed and acknowledged (subject to broker semantics). This in-memory example models delivery, receipt-handle acknowledgement, and retry without conflating message IDs with delivery IDs.
 
 ## Runnable example
 
